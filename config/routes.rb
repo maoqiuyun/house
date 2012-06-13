@@ -1,4 +1,6 @@
 House::Application.routes.draw do
+  devise_for :models
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
